@@ -1,16 +1,14 @@
 # README #
 
-This is the proteogenomic pipeline for differential splice variant identification.
+SPLICIFY is the proteogenomic pipeline for differential splice variant identification.
 
-This pipeline was developed by M A Komor, please cite:
-
-### here is hopefully my paper
+This pipeline was developed by M A Komor, please cite.
 
 **Version 1.0**
 
 ## Introduction
 
-This pipeline consists of 2 steps - a genomic and a proteomic part. 
+SPLICIFY consists of 2 steps - a genomic and a proteomic part. 
 
 Within the genomic part of the proteogenomic pipeline (step 1) RNA-seq analysis is performed, including quality and adapter trimming with Trimmomatic, reads mapping with STAR, differential splicing analysis with rMATS and post-processing steps to transform
 the splice variants into potential protein variant sequence database (FASTA), that
