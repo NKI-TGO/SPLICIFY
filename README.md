@@ -47,6 +47,17 @@ Recommended  software:
 In case of the use of other search engine for mass spectra identification, the output should be processed by the user so that it fits the step 2 of the pipeline (resembles MaxQuant output). See section *Using a different search engine* for details.
 
 ## Quick start
+
+### Download and install
+
+	git clone https://github.com/NKI-TGO/SPLICIFY.git
+	cd SPLICIFY
+	curl -J -O https://surfdrive.surf.nl/files/index.php/s/9pVCNG3ez6b7b59/download
+	tar -xvzf data.tar.gz
+	cd src
+	wget https://sourceforge.net/projects/rnaseq-mats/files/MATS/rMATS.3.2.5.tgz
+	tar -xvzf rMATS.3.2.5.tgz
+
 For a quick start the following parameters should be adjusted in the configuration file.
 
 To run **proteogenomics_step1.py**:
@@ -456,6 +467,5 @@ Columns explanation:
 	* Gosia Komor
 * Code review
 	* Thang Pham 
-* Running tests
-	* Linda Bosch
+
 
