@@ -47,7 +47,7 @@ imputation <- function(df){
 
 # differential peptide expression
 diffPepExpr <- function(df, gr1, gr2){
-  design<-data.frame(c(rep(1,length(gr1+gr2))), c(rep(0,length(gr1)), rep(1,length(gr2))))
+  design<-data.frame(c(rep(1,length(gr1)+length(gr2))), c(rep(0,length(gr1)), rep(1,length(gr2))))
   
   fit <- lmFit(df, design)
   e = eBayes(fit)
