@@ -11,7 +11,7 @@
 # install required packages
 list.of.packages <- c("foreach", "doParallel", "seqinr", "cwhmisc", "reshape")
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
-if(length(new.packages)) install.packages(new.packages)
+if(length(new.packages)) install.packages(new.packages, repos = "http://cran.us.r-project.org")
 
 # load libraries
 library(foreach)
