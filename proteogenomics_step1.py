@@ -266,7 +266,7 @@ def matsToFasta(config):
 
     try:
         output = subprocess.check_output(shlex.split(cmd))
-    except:
+    except (IOError, OSError) as e:
         if e.errno == os.errno.ENOENT:
             print "Transeq not installed."
         print "Running alternative script for nucleotide to amino acid translation." \
