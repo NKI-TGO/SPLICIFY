@@ -55,10 +55,10 @@ In case of the use of other search engine for mass spectra identification, the o
 	curl -J -O https://surfdrive.surf.nl/files/index.php/s/9pVCNG3ez6b7b59/download
 	tar -xvzf data.tar.gz
 
-    # If you don't have admin right to install R packages globally run these optional two commands
+    # If you don't have admin rights to install R packages globally, run these optional two commands
     export R_LIBS="/data/R_libs"
     mkdir /data/R_libs
-    # end of optional two commands
+    # the end of optional two commands
 
 	cd src
 	wget https://sourceforge.net/projects/rnaseq-mats/files/MATS/rMATS.3.2.5.tgz
