@@ -110,6 +110,10 @@ def getRNAInformation(config):
 
     except:
         raise Exception(" getRNAInformation.R failed. Please check the R error. ")
+        
+    print "Isoform-specific peptides were identified."
+    print ("You can find the output in the directory %s ." %config.get("Extract", "output_prefix"))
+
 
 
 def quantitativeAnalysis(config):
@@ -130,6 +134,12 @@ def quantitativeAnalysis(config):
 
     except:
         raise Exception(" quantitativeAnalysis.R failed. Please check the R error. ")
+     
+    print "Quantitative analysis of the isoform-specific peptides succeeded."
+    print ("You can find the output in the directory %s ." %config.get("Extract", "output_prefix"))
+    print "This is the end of the step2 of the proteogenomic pipeline SPLICIFY"   
+
+
 
 
 def main():
