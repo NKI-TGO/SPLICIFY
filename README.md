@@ -2,7 +2,13 @@
 
 SPLICIFY is the proteogenomic pipeline for differential splice variant identification.
 
-This pipeline was developed by M A Komor, please cite.
+This pipeline was developed by M A Komor, please cite:
+
+_Mol Cell Proteomics. 2017 Jul 26. pii: mcp.000056.2017. doi: 10.1074/mcp.TIR117.000056. [Epub ahead of print]
+Identification of differentially expressed splice variants by the proteogenomic pipeline Splicify.
+Komor MA, Pham T, Hiemstra AC, Piersma SR, Bolijn AS, Schelfhorst T, Delis-van Diemen PM, Tijssen M, Sebra RP, Ashby M, Meijer GA, Jimenez CR, Fijneman RJA.
+PMID: 28747380_
+
 
 **Version 1.0**
 
