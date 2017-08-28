@@ -58,7 +58,7 @@ In case of the use of other search engine for mass spectra identification, the o
 
 	git clone https://github.com/NKI-TGO/SPLICIFY.git
 	cd SPLICIFY
-	curl -J -O https://surfdrive.surf.nl/files/index.php/s/9pVCNG3ez6b7b59/download
+	wget --no-check-certificat https://zenodo.org/record/848741/files/data.tar.gz
 	tar -xvzf data.tar.gz
 
     # If you don't have admin rights to install R packages globally, run these optional two commands
