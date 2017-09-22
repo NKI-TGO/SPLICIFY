@@ -465,7 +465,7 @@ Columns explanation:
 * `Right` - peptide length on the right side of the junction
 * `Location` - peptide coordinates
 * `IntensitySampleX` - normalized log10 transformed intensity of the peptide in SampleX, this value was taken along to limma analysis. If `imputation = no`, NA's for missing values.
-* `limma.logFC` - limma log2 fold change from the differential peptide expression between the groups
+* `limma.logFC` - limma log10 fold change from the differential peptide expression between the groups
 * `limma.p.value` - limma p-value from the differential peptide expression between the groups
 * `limma.adj.p.value` - p-value adjusted with Benjamini–Hochberg correction
 * `NumberOfSamples` - number of samples in which peptide was identified and intensity was available, useful if `imputation = yes` included to extract intensities from the imputed values for missing values.
