@@ -457,7 +457,7 @@ Columns explanation:
 * `ExclLevel2` - mean of Exclusion Levels of all the samples in Group2, `ExclLevel2 = 1 - InclLevel2`
 * `IncLevelDifference` - difference in inclusion levels between Group1 and Group2, `IncLevelDifference = InclLevel1 - InclLevel2`
 * `Sample` - sample names in which the peptide was identified
-* `Aberrant` - TRUE - non-canonical peptide, FALSE - canonical peptide (in SwissProtDB)
+* `NonCanonical` - TRUE - non-canonical peptide, FALSE - canonical peptide (in SwissProtDB)
 * `SecondVariant` - TRUE - peptides for both variants identified, FALSE - peptides identified only for this variant
 * `Peptide` - Information if the peptide spans exon-exon junction (split peptide), spans exon-intron junction (spanning peptide) or maps on the spliced region (on target)
 * `NumberOfisoforms` - number of isoforms to which the peptide maps
