@@ -28,7 +28,7 @@ median_normalisation <- function(a){
 
 normalize_df <- function(df){
   
-  pep_log <- log10(df)
+  pep_log <- log2(df)
   pep_log[pep_log == -Inf] <- NA
   
   return(sweep(pep_log, 2, median_normalisation(pep_log), '*'))
